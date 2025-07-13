@@ -1,0 +1,13 @@
+name: CI Python Project
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  impl_python:
+    runs_on: ubuntu_latest
+
+    steps:
+      - name: Show Python version
+        run: python3 -version
