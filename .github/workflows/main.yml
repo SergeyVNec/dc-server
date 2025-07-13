@@ -6,7 +6,7 @@ on:
 
 jobs:
   impl_python:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Show Python version
