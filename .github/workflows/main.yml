@@ -32,4 +32,4 @@ jobs:
           sleep 5
 
       - name: Chek Server
-        run: curl -v http://localhost:5000
+        run: curl -v http://localhost:5000/api/products
