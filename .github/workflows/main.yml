@@ -11,3 +11,23 @@ jobs:
     steps:
       - name: Show Python version
         run: python3 --version
+
+      - name: Repository checkout
+        uses: actions/checkout@v4
+
+      - name: Show directory and List files
+        run: |
+          pwd
+          ls -la
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update Database
+        run: python3 db.py -a
+
+      - name: Run Server
+        run: python3 app.py
+
+      - name: Chek Server
+        run: curl http://localhost:5000
