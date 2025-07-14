@@ -1,3 +1,4 @@
+[![CI Python Project](https://github.com/SergeyVNec/dc-server/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/SergeyVNec/dc-server/actions/workflows/main.yml)
 # Flask Product API
 For second branch
 This is a simple Flask API for managing product data. The API allows you to perform basic CRUD (Create, Read, Update, Delete) operations on products.
